@@ -54,7 +54,7 @@ La aplicación está desplegada, orquestada y accesible públicamente. Todas las
 ### Opción B: Ejecución Local (Desarrollo)
 Para replicar el entorno de modelado en local:
 
-1. **Clonar el repositorio:**
+1. **Clonar el repositorio e ingresar a la carpeta:**
 ```bash
 git clone https://github.com/jlandaa/SmartCredit-ML
 cd SmartCredit-ML
