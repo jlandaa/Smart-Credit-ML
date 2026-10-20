@@ -1,8 +1,9 @@
 # 🏦 SmartCredit-ML: Predictive Credit Risk Scoring
-![Status: Maintained](https://img.shields.io/badge/Status-Maintained-brightgreen?style=for-the-badge)
-![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
-
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://jml-smartcredit-ml.streamlit.app/)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![XGBoost](https://img.shields.io/badge/XGBoost-179331?style=for-the-badge&logo=xgboost&logoColor=white)](https://xgboost.ai/)
+[![Google BigQuery](https://img.shields.io/badge/Google_BigQuery-669DF6?style=for-the-badge&logo=google-cloud&logoColor=white)](https://cloud.google.com/bigquery)
+[![Looker Studio](https://img.shields.io/badge/Looker_Studio-4285F4?style=for-the-badge&logo=looker&logoColor=white)](https://lookerstudio.google.com/)
 
 ## 📌 Descripción del Proyecto
 SmartCredit-ML es una solución integral de Scoring de Riesgo Crediticio que transforma probabilidades estadísticas en decisiones de negocio claras. A diferencia de un modelo predictivo tradicional, esta plataforma automatiza el proceso de evaluación incorporando capas de explicabilidad algorítmica (XAI), monitoreo preventivo de datos (MLOps) y generación de lenguaje natural (NLG).
@@ -29,7 +30,7 @@ Este proyecto implementa prácticas avanzadas de **MLOps** y **Data Engineering*
 ## 📊 Dashboard Gerencial
 Las predicciones realizadas por el modelo se centralizan en un tablero de control para el monitoreo de KPIs de riesgo:
 
-👉 [Ver Dashboard en Looker Studio](https://lookerstudio.google.com/reporting/c48718c7-f0a5-4672-82bf-bdd38e346c76/page/BenrF) 
+👉 **[Ver Dashboard en Looker Studio](https://lookerstudio.google.com/reporting/c48718c7-f0a5-4672-82bf-bdd38e346c76/page/BenrF)**
 
 ## 🧠 Arquitectura del Sistema
 El núcleo de la aplicación está diseñado como un **Pipeline *End-to-End*** que abarca desde la validación del dato crudo hasta la explicabilidad algorítmica y la persistencia en la nube:
@@ -42,21 +43,33 @@ El núcleo de la aplicación está diseñado como un **Pipeline *End-to-End*** q
    * **Traducción a Negocio:** Un motor de **Generación de Lenguaje Natural (NLG)** determinista que redacta la conclusión del análisis financiero.
 5. **Capa de Persistencia (Cloud):** Conexión segura mediante *Service Accounts* a **Google BigQuery** (`pandas-gbq`), registrando cada evaluación productiva para alimentar el ecosistema de *Business Intelligence* en Looker Studio.
 
-## 🚀 Cómo ejecutarlo localmente
-1. Clona el repositorio:
+
+## 🚀 Despliegue y Ejecución
+
+### Opción A: Entorno de Producción (Cloud)
+La aplicación está desplegada, orquestada y accesible públicamente. Todas las evaluaciones productivas persisten automáticamente en Google BigQuery para su auditoría en Looker Studio.
+👉 **[Acceder a la Aplicación Web (Streamlit)](https://jml-smartcredit-ml.streamlit.app/)**
+
+
+### Opción B: Ejecución Local (Desarrollo)
+Para replicar el entorno de modelado en local:
+
+1. **Clonar el repositorio:**
 ```bash
 git clone https://github.com/jlandaa/SmartCredit-ML
+cd SmartCredit-ML
 ```
-2. Instala las dependencias:
+2.  **Instala las dependencias:**
 ```bash
 pip install -r requirements.txt
 ```
-3. Ejecuta la aplicación de Streamlit:
+3.  **Ejecutar la interfaz:**
 ```bash
 streamlit run app.py
 ```
 
-*(Nota: Para ejecutar la aplicación localmente con persistencia de datos, deberás configurar tus credenciales de Google BigQuery en el archivo .streamlit/secrets.toml. De lo contrario, puedes explorar la interfaz comentando la línea de carga de credenciales y activando el Modo Simulación).*
+> * Nota: Para ejecutar la aplicación localmente con persistencia de datos, deberás configurar tus credenciales de Google BigQuery en el archivo .streamlit/secrets.toml. De lo contrario, puedes explorar la interfaz comentando la línea de carga de credenciales y activando el *Modo Simulación* en la interfaz para no generar inserciones en base de datos. *
 
-## 👨‍💻 Autor
-## Juan Manuel Landa - Ingeniero en Computación
+---
+👨‍💻 **Juan Manuel Landa** — *Computer Engineer | Data Analyst & BI Consultant*  
+🔗 [LinkedIn](https://ar.linkedin.com/in/juan-manuel-landa/en) • 🌐 [Portfolio](https://juan-manuel-landa.netlify.app/) • ✉️ [Contacto](mailto:jmlanda93@gmail.com)
