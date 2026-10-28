@@ -49,7 +49,7 @@ except Exception as e:
     st.stop()
 
 # 3. Interfaz de Usuario
-st.title("🏦 SmartCredit-ML")
+st.title("🏦 Smart-Credit-ML")
 st.subheader("Sistema Predictivo de Riesgo Crediticio")
 st.markdown("""
 Esta aplicación utiliza un modelo **XGBoost** entrenado con datos históricos para evaluar la 
