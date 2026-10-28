@@ -1,4 +1,4 @@
-# 🏦 SmartCredit-ML: Predictive Credit Risk Scoring
+# 🏦 Smart-Credit-ML: Predictive Credit Risk Scoring
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://jml-smartcredit-ml.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![XGBoost](https://img.shields.io/badge/XGBoost-179331?style=for-the-badge&logo=xgboost&logoColor=white)](https://xgboost.ai/)
@@ -6,7 +6,7 @@
 [![Looker Studio](https://img.shields.io/badge/Looker_Studio-4285F4?style=for-the-badge&logo=looker&logoColor=white)](https://lookerstudio.google.com/)
 
 ## 📌 Descripción del Proyecto
-SmartCredit-ML es una solución integral de Scoring de Riesgo Crediticio que transforma probabilidades estadísticas en decisiones de negocio claras. A diferencia de un modelo predictivo tradicional, esta plataforma automatiza el proceso de evaluación incorporando capas de explicabilidad algorítmica (XAI), monitoreo preventivo de datos (MLOps) y generación de lenguaje natural (NLG).
+Smart-Credit-ML es una solución integral de Scoring de Riesgo Crediticio que transforma probabilidades estadísticas en decisiones de negocio claras. A diferencia de un modelo predictivo tradicional, esta plataforma automatiza el proceso de evaluación incorporando capas de explicabilidad algorítmica (XAI), monitoreo preventivo de datos (MLOps) y generación de lenguaje natural (NLG).
 
 El sistema no solo predice la probabilidad de incumplimiento de pago (Default) basándose en el perfil financiero y demográfico del usuario, sino que calcula el impacto financiero esperado en dólares y traduce la matemática compleja en un resumen ejecutivo legible.
 
@@ -56,8 +56,8 @@ Para replicar el entorno de modelado en local:
 
 1. **Clonar el repositorio e ingresar a la carpeta:**
 ```bash
-git clone https://github.com/jlandaa/SmartCredit-ML
-cd SmartCredit-ML
+git clone https://github.com/jlandaa/Smart-Credit-ML
+cd Smart-Credit-ML
 ```
 2.  **Instala las dependencias:**
 ```bash
