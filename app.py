@@ -20,7 +20,7 @@ st.markdown("""
 
 # 1. Configuración de la página y Estilo
 st.set_page_config(
-    page_title="SmartCredit-ML | Scoring de Riesgo",
+    page_title="Smart-Credit-ML | Scoring de Riesgo",
     page_icon="🏦",
     layout="centered"
 )
